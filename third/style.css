@@ -1,0 +1,55 @@
+html, body {
+	background: rgb(20%, 20%, 20%);
+	height: 100%;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+	/*min-height: 100px;*/
+	background: rgb(100%, 100%, 100%);
+	margin-bottom: 50px;
+}
+
+.col1 {
+	padding: 20px;
+	float: left;
+	width: 50%;
+}
+
+.col2 {
+	padding: 20px;
+	float: left;
+	width: 50%;
+}
+
+.photo {
+	margin: 0 auto;
+	height: 250px;
+	width: 300px;
+	background: url(http://www.utahskiing.org/images/alta-ski-resort-official.jpg);
+}
+
+a {
+	color: white;
+	font-family: sans-serif;
+	font-size: 1.2em;
+	margin-left: 50px;
+	line-height: 80px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
